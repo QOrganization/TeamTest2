@@ -1,7 +1,11 @@
 #include <cstdlib>
 #include <iostream>
 
+// Avoid having to type std::
+using namespace std;
+
 int main(int argc, char *argv[]) {
-	std::cout << "Hello world" << std::endl;
+// Removed std:: and added !
+	cout << "Hello world!" << endl;
 	return 0;
 }
